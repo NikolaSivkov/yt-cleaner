@@ -1,0 +1,20 @@
+ /* this makes the hamburger buttons visible int he page*/
+ #contents #menu ytd-menu-renderer.style-scope.ytd-playlist-video-renderer {
+     opacity: 1;
+ }
+
+ #contents button.nikola {
+     outline: 1px solid red;
+     background-color: transparent;
+ }
+
+ #contents button.nikola>svg {
+     height: 16px;
+     width: 16px;
+     color: white;
+     fill: white;
+ }
+
+ #contents #menu {
+     display: flex;
+ }
